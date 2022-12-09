@@ -1,0 +1,183 @@
+.conteiner{
+    height: 200px;
+    width: 200px;
+   
+}
+
+.shar{
+    height: 150px;
+    width: 150px;
+    background-color: transparent;
+    border-radius: 400% 400% 300% 300%/ 200% 200% 300% 300% ;
+    background-image: linear-gradient(rgb(239, 255, 255), rgb(74, 179, 181));
+}
+.body{
+    height: 40px;
+    width: 90px;
+    background-image: radial-gradient(rgb(255, 248, 119), rgb(246, 183, 116));
+    position: relative;
+    left: 50px;
+    top: 50px;
+    border-radius: 100% 100% 100% 100% / 100% 100% 100% 100% ;
+}
+.eyes{
+    height: 10px;
+    width: 8px;
+    background-color: azure;
+    border-radius: 100% 100% 100% 100% / 100% 100% 100% 100% ;
+    position: relative;
+    left: 75%;
+    top: 30%;
+}
+.plavnik{
+    height: 40px;
+    width: 15px;
+    background-color:  rgb(246, 183, 116);
+    background-image: radial-gradient(rgb(255, 248, 119), rgb(246, 183, 116));
+    border-radius: 100% 100% 100% 100% / 100% 100% 100% 100% ;
+    position: relative;
+    left: 20%;
+    top: 4%;
+    transform: rotate(60deg);
+}
+.zrachok{
+    height: 6px;
+    width: 6px;
+    background-color: rgb(13, 13, 13);
+    border-radius: 100% 100% 100% 100% / 100% 100% 100% 100% ;
+    position: relative;
+    left: 15%;
+    top: 30%;
+}
+.hvost {
+    width: 0px;
+    height: 0px;
+    border-top: 15px solid transparent;
+    border-left: 25px solid  rgb(245, 216, 128);
+    border-bottom: 15px solid transparent;
+    position: relative;
+    left: 30px;
+   top: 14px;
+   animation-name: hvost;
+   animation-duration: 9ms;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   
+}
+.bolt{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(77, 55, 55);
+    position: relative;
+    left: 25%;
+}
+.bolt2{
+    height: 16px;
+    width: 15px;
+    background-color: rgb(77, 55, 55);
+    position: relative;
+    bottom: 7.5%;
+    left: 42%;
+}
+.wheel{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(20, 15, 15);
+    border-radius: 300% 300% 300% 300%/ 300% 300% 300% 300% ;
+    position: relative;
+    left: 21%;
+    bottom: 10%;
+    animation-name: wheel;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.wheel2{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(20, 15, 15);
+    border-radius: 300% 300% 300% 300%/ 300% 300% 300% 300% ;
+    position: relative;
+    left: 38%;
+    bottom: 25%;
+    animation-name: wheel2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.one{
+    height: 30px;
+    width: 1px;
+    background-color: azure;
+    position: relative;
+    left: 45%;
+}
+.two{
+    height: 30px;
+    width: 1px;
+    background-color: azure;
+    position: relative;
+    left: 47%;
+    bottom: 100%;
+    transform: rotate(70deg);
+}
+.three{
+    height: 30px;
+    width: 1px;
+    background-color: azure;
+    position: relative;
+    left: 47%;
+    bottom: 200%;
+    transform: rotate(120deg);
+}
+.one1{
+    height: 30px;
+    width: 1px;
+    background-color: azure;
+    position: relative;
+    left: 45%;
+}
+.two2{
+    height: 30px;
+    width: 1px;
+    background-color: azure;
+    position: relative;
+    left: 47%;
+    bottom: 100%;
+    transform: rotate(70deg);
+}
+.three3{
+    height: 30px;
+    width: 1px;
+    background-color: azure;
+    position: relative;
+    left: 47%;
+    bottom: 200%;
+    transform: rotate(120deg);
+}
+
+@keyframes wheel {
+0%{
+transform:rotate(0deg);
+}
+100%{
+transform:rotate(360deg);
+}
+}
+@keyframes wheel2 {
+    0%{
+    transform:rotate(0deg);
+    }
+    100%{
+    transform:rotate(360deg);
+    }
+ }
+ @keyframes hvost {
+    0%{
+    transform: rotate(10deg);
+    }
+    100%{
+    transform:rotate(20deg);
+    }
+}
